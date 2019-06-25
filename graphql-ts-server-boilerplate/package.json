@@ -3,10 +3,13 @@
    "version": "0.0.1",
    "description": "Awesome project developed with TypeORM.",
    "devDependencies": {
+      "@types/jest": "^24.0.15",
       "@types/node": "^8.0.29",
       "@types/uuid": "^3.4.4",
       "gql2ts": "^1.10.1",
+      "jest": "^24.8.0",
       "nodemon": "^1.19.1",
+      "ts-jest": "^24.0.2",
       "ts-node": "3.3.0",
       "tslint": "^5.18.0",
       "tslint-config-prettier": "^1.18.0",
