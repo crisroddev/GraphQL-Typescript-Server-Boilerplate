@@ -52,6 +52,20 @@ createConnecton on index for synchronization
 ```
 yarn add brcyptjs @types/bcryptjs -D
 ```
+```
+Mutation Register User
+ Mutation: {
+    register: async (_, {email, password}: GQL.IRegisterOnMutationArguments) => {
+      const hashedPassword = await bcrypt.hash(password, 10);
+      const user = User.create({
+        email,
+        password: hashedPassword
+      });
+      user.save();
+      return true;
+    }
+  }
+```
 ## Jest
 
 ## Setting DB
