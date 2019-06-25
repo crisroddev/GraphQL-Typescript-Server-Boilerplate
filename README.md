@@ -70,6 +70,9 @@ Mutation Register User
 ```
 yarn add -D jest ts-jest @types/jest
 ```
+```
+yarn add graphql-request
+```
 
 ## Setting DB
 
