@@ -25,6 +25,12 @@ yarn add -D nodemon
 ```
 
 ## Creating TypeORM
+```
+Entity => User.ts User table on database
+```
+```
+UUID for ID generation yarn add uuid
+```
 
 ## Creating User
 
