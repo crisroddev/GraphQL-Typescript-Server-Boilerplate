@@ -67,6 +67,9 @@ Mutation Register User
   }
 ```
 ## Jest
+```
+yarn add -D jest ts-jest @types/jest
+```
 
 ## Setting DB
 
