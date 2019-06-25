@@ -14,6 +14,9 @@ yarn install
 ```
 Create DB createdb graphql_bolierplate
 ```
+```
+Add ts-lint yarn add -D tslint tslint-config-prettier
+```
 
 ## Creating TypeORM
 
