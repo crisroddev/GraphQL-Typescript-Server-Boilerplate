@@ -20,6 +20,9 @@ Add ts-lint yarn add -D tslint tslint-config-prettier
 ```
 Graphql-Yoga yarn add graphql-yoga
 ```
+```
+yarn add -D nodemon
+```
 
 ## Creating TypeORM
 
