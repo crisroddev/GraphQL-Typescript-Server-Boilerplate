@@ -8,6 +8,9 @@ typeorm init --name graphql-ts-server-boilerplate --database postgres
 Install npm check updates npm install -g npm-check-updates
 Use: ncu -a
 ```
+```
+yarn install
+```
 
 ## Creating TypeORM
 
