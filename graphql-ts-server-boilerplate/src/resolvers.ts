@@ -5,6 +5,8 @@ export const resolvers: ResolverMap = {
     hello: (_, { name }: GQL.IHelloOnQueryArguments) => `Bye ${name || "World"}`
   },
   Mutation: {
-    register: (_, {email, password}: GQL.IRegisterOnMutationArguments) => {}
+    register: (_, {email, password}: GQL.IRegisterOnMutationArguments) => {
+      return email + password
+    }
   }
 };
