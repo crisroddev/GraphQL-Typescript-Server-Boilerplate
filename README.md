@@ -50,7 +50,7 @@ psql postgres \c databaseName && \d user
 createConnecton on index for synchronization
 ```
 ```
-yarn add brcyptjs
+yarn add brcyptjs @types/bcryptjs -D
 ```
 ## Jest
 

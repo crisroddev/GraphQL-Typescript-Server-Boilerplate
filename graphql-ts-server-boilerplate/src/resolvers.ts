@@ -6,6 +6,7 @@ export const resolvers: ResolverMap = {
   },
   Mutation: {
     register: (_, {email, password}: GQL.IRegisterOnMutationArguments) => {
+      
       return email + password
     }
   }
