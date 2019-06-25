@@ -11,6 +11,9 @@ Use: ncu -a
 ```
 yarn install
 ```
+```
+Create DB createdb graphql_bolierplate
+```
 
 ## Creating TypeORM
 
