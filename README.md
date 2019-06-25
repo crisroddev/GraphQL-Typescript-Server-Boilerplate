@@ -37,6 +37,13 @@ schema.graphql for typeDefs
 ```
 yarn add graphql-import for schema importing
 ```
+```
+yarn add -D gql2ts for type definitions
+```
+```
+"gen-schema-types": "gql2ts src/schema.graphql -o src/types/schema.d.ts" && yarn gen-schema-types
+```
+
 
 ## Creating User
 
