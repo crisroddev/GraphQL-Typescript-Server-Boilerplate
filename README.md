@@ -46,6 +46,9 @@ yarn add -D gql2ts for type definitions
 ```
 psql postgres \c databaseName && \d user
 ```
+```
+createConnecton on index for synchronization
+```
 
 
 ## Creating User
