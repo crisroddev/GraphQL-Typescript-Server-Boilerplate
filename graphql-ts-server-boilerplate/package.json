@@ -13,6 +13,7 @@
       "typescript": "3.3.3333"
    },
    "dependencies": {
+      "bcryptjs": "^2.4.3",
       "graphql-import": "^0.7.1",
       "graphql-yoga": "^1.18.0",
       "pg": "^7.3.0",

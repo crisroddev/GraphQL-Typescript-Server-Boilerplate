@@ -49,10 +49,9 @@ psql postgres \c databaseName && \d user
 ```
 createConnecton on index for synchronization
 ```
-
-
-## Creating User
-
+```
+yarn add brcyptjs
+```
 ## Jest
 
 ## Setting DB
