@@ -31,6 +31,12 @@ Entity => User.ts User table on database
 ```
 UUID for ID generation yarn add uuid && yarn add -D @types/uuid
 ```
+```
+schema.graphql for typeDefs
+```
+```
+yarn add graphql-import for schema importing
+```
 
 ## Creating User
 

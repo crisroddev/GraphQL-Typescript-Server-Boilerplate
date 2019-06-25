@@ -12,6 +12,7 @@
       "typescript": "3.3.3333"
    },
    "dependencies": {
+      "graphql-import": "^0.7.1",
       "graphql-yoga": "^1.18.0",
       "pg": "^7.3.0",
       "reflect-metadata": "^0.1.10",
