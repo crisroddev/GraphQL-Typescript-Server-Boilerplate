@@ -29,7 +29,7 @@ yarn add -D nodemon
 Entity => User.ts User table on database
 ```
 ```
-UUID for ID generation yarn add uuid
+UUID for ID generation yarn add uuid && yarn add -D @types/uuid
 ```
 
 ## Creating User
